@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты | Сталкер</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="title">Контакты</h1>
+        <nav class="navbar">
+          <ul>
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="../src/proekt.html">О проекте</a></li>
+            <li><a href="../src/osobenosti.html">Особенности</a></li>
+            <li><a href="../src/galerei.html">Галерея</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2>Свяжитесь с нами</h2>
+          <p>
+            Если у вас есть вопросы, предложения или вы хотите сообщить об
+            ошибках, вы можете связаться с нами по следующим каналам:
+          </p>
+          <ul>
+            <li><strong>Email:</strong> support@stalker-zone.com</li>
+            <li><strong>Телефон:</strong> +1 (800) 555-1234</li>
+            <li>
+              <strong>Адрес:</strong> 123 Чернобыльская улица, Зона отчуждения
+            </li>
+          </ul>
+          <p>Также вы можете отправить сообщение, используя форму ниже:</p>
+
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Ваше имя:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Введите ваше имя"
+              required
+            />
+
+            <label for="email">Ваш email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Введите ваш email"
+              required
+            />
+
+            <label for="message">Сообщение:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Введите ваше сообщение"
+              rows="5"
+              required
+            ></textarea>
+
+            <button type="submit" class="btn">Отправить</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Сталкер. Все права защищены.</p>
+      </div>
+    </footer>
+  </body>
+</html>
